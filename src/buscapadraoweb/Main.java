@@ -67,7 +67,9 @@ public class Main {
     public static void main(String[] args) {
         //instancia e usa objeto que captura código-fonte de páginas Web
         CapturaRecursosWeb crw = new CapturaRecursosWeb();
-        crw.getListaRecursos().add("https://genioferramentas.com.br/blog/como-ficara-a-placa-com-o-novo-padrao-mercosul1/");
+        //crw.getListaRecursos().add("https://genioferramentas.com.br/blog/como-ficara-a-placa-com-o-novo-padrao-mercosul1/");
+        //crw.getListaRecursos().add("https://www.guj.com.br/t/placa-do-veiculo-padrao-mercosul-resolvido/382210/");
+        crw.getListaRecursos().add("https://pt.stackoverflow.com/questions/363630/placa-ve%C3%ADculos-padr%C3%A3o-mercosul");
         ArrayList<String> listaCodigos = crw.carregarRecursos();
 
         String codigoHTML = listaCodigos.get(0);
